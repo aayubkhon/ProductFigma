@@ -1,26 +1,26 @@
 import React from 'react'
-import { Button, Carts, Container, Icons, Pages, Wrapper } from './style'
+import { Button, Carts, CartsImg, Container, Icons, Pages, Wrapper } from './style'
 import search from '../Assets/icons/search.svg'
 import cart from '../Assets/icons/cart.svg'
 const Navbar = () => {
   return (
     <Container>
-     <Wrapper>
-       <Pages>
-       <p>Home</p>
+      <Wrapper>
+        <Pages>
+        <p>Home</p>
         <p>About</p>
         <p>Blog</p>
         <p>Contact</p>
         <p>Courses</p>
-       </Pages>
+        </Pages>
       </Wrapper>
       <Icons>
         <Carts>
-          <img src={search} alt="" />
+          <CartsImg src={search} alt="" />
           <p>search</p>
         </Carts>
         <Carts>
-          <img src={cart} alt="" />
+          <CartsImg src={cart} alt="" />
           <p>cart</p>
         </Carts>
         <Button>Sign Up</Button>
