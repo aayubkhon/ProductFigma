@@ -44,6 +44,7 @@ const Something = styled.div`
   display: flex;
   align-items: center;
   margin-top: 20px;
+  cursor: pointer;
 `;
 
 const LearnT = styled.p`
@@ -70,6 +71,8 @@ const Button = styled.button`
   color: #ffffff;
   width: 135px;
   height: 50px;
+  cursor: pointer;
+
 `;
 
 const Logo = styled.img`
