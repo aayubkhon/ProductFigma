@@ -3,7 +3,9 @@ import { Container } from './style'
 
 const AboutTeachers = () => {
   return (
-    <Container>AboutTeachers</Container>
+    <Container>AboutTeachers
+
+    </Container>
   )
 }
 
