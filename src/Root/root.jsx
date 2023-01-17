@@ -1,4 +1,6 @@
 import React from "react";
+import ContactUs from "../Components/ContactUs";
+import Footer from "../Components/Footer";
 import Home from "../Components/Home";
 import AboutCourse from "../Components/Home 2";
 import FindCourse from "../Components/Home 3";
@@ -21,6 +23,8 @@ const Root = () => {
       <AboutTeachers />
       <Testimonials />
       <LatestPost/>
+      <ContactUs/>
+      <Footer/>
     </div>
   );
 };
