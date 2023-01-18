@@ -1,6 +1,26 @@
 import React from "react";
-import { AICompany, Box, Button, Container, Input, InputBox, Item, Items, Pages, Paragraphs, Title, Wrapper, WrapperItem } from "./style";
-
+import {
+  AICompany,
+  Border,
+  Box,
+  Button,
+  Container,
+  Input,
+  InputBox,
+  Item,
+  Items,
+  Pages,
+  Paragraphs,
+  SNS,
+  SNSImg,
+  Social,
+  Title,
+  Wrapper,
+  WrapperItem,
+} from "./style";
+import facebook from "../Assets/icons/facebook.svg";
+import twiter from "../Assets/icons/twiter.svg";
+import instagram from "../Assets/icons/instagram.svg";
 const Footer = () => {
   return (
     <Container>
@@ -16,52 +36,60 @@ const Footer = () => {
           <AICompany>Akramov AI Company...</AICompany>
         </WrapperItem>
         <Box>
-        <Items>
+          <Items>
             <Paragraphs>Pages</Paragraphs>
             <Item>
-                <Pages>Home</Pages>
-                <Pages>About</Pages>
-                <Pages>Contact</Pages>
-                <Pages>Blog</Pages>
-                <Pages>Courses</Pages>
-                <Pages>Teachers</Pages>
+              <Pages>Home</Pages>
+              <Pages>About</Pages>
+              <Pages>Contact</Pages>
+              <Pages>Blog</Pages>
+              <Pages>Courses</Pages>
+              <Pages>Teachers</Pages>
             </Item>
-        </Items>
-        <Items>
+          </Items>
+          <Items>
             <Paragraphs>CMS Pages</Paragraphs>
             <Item>
-                <Pages>Blog Post</Pages>
-                <Pages>Blog Categories</Pages>
-                <Pages>Courses Single</Pages>
-                <Pages>Courses Categories</Pages>
-                <Pages>Product Page</Pages>
-                <Pages>Product Categories</Pages>
-                <Pages>Teachers Single</Pages>
-                <Pages>Episode Single</Pages>
+              <Pages>Blog Post</Pages>
+              <Pages>Blog Categories</Pages>
+              <Pages>Courses Single</Pages>
+              <Pages>Courses Categories</Pages>
+              <Pages>Product Page</Pages>
+              <Pages>Product Categories</Pages>
+              <Pages>Teachers Single</Pages>
+              <Pages>Episode Single</Pages>
             </Item>
-        </Items>
-        <Items>
+          </Items>
+          <Items>
             <Paragraphs>Account Pages</Paragraphs>
             <Item>
-                <Pages>Login</Pages>
-                <Pages>Sign Up</Pages>
-                <Pages>Forgot Password</Pages>
-                <Pages>Email Confirmation</Pages>
+              <Pages>Login</Pages>
+              <Pages>Sign Up</Pages>
+              <Pages>Forgot Password</Pages>
+              <Pages>Email Confirmation</Pages>
             </Item>
-        </Items>
-        <Items>
+          </Items>
+          <Items>
             <Paragraphs>Utility Pages</Paragraphs>
             <Item>
-                <Pages>Style Guide</Pages>
-                <Pages>Changelog</Pages>
-                <Pages>Licenses</Pages>
-                <Pages>404</Pages>
-                <Pages>Password</Pages>
+              <Pages>Style Guide</Pages>
+              <Pages>Changelog</Pages>
+              <Pages>Licenses</Pages>
+              <Pages>404</Pages>
+              <Pages>Password</Pages>
             </Item>
-        </Items>
+          </Items>
         </Box>
       </Wrapper>
-      <p>adsdsa</p>
+      <Border></Border>
+      <Social>
+        <Pages>© Learnico by Minimal Square . Powered by Akramov AI</Pages>
+        <SNS>
+          <SNSImg src={facebook} alt="" />
+          <SNSImg src={twiter} alt="" />
+          <SNSImg src={instagram} alt="" />
+        </SNS>
+      </Social>
     </Container>
   );
 };

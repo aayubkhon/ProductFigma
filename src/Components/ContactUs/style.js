@@ -55,6 +55,8 @@ const Button = styled.button`
   border: none;
   width: 135px;
   height: 50px;
+  cursor: pointer;
+
 `;
 
 const ItemButton = styled.button`
@@ -71,6 +73,7 @@ const ItemButton = styled.button`
   width: 135px;
   height: 50px;
   margin-left: 16px;
+  cursor: pointer;
 `;
 
 export { Container, Wrapper, Title, Text, Item, Button, ItemButton };

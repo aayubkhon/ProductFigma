@@ -69,39 +69,64 @@ const AICompany = styled.p`
 `;
 
 const Box = styled.div`
-display:flex;
-justify-content:space-between;
-width:650px;
-`
+  display: flex;
+  justify-content: space-between;
+  width: 650px;
+`;
 
 const Items = styled.div`
-display:flex;
-flex-direction:column;
-`
+  display: flex;
+  flex-direction: column;
+`;
 
 const Item = styled.div`
-display:flex;
-flex-direction:column;
-margin-top:24px;
-`
+  display: flex;
+  flex-direction: column;
+  margin-top: 24px;
+`;
 
 const Paragraphs = styled.p`
   font-family: "Poppins";
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-color: #FFFFFF;
-`
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+`;
 
 const Pages = styled.p`
   font-family: "Poppins";
-font-weight: 400;
-font-size: 14px;
-line-height: 21px;
-color: #FFFFFF;
-margin-top:24px;
-`
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+  margin-top: 24px;
+  cursor: pointer;
+`;
 
+const Border = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1200px;
+  height: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  margin: 50px auto;
+`;
+const Social = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+`;
+
+const SNS = styled.div`
+  display: flex;
+  align-items: center;
+`;
+
+const SNSImg = styled.img`
+  margin-left: 10px;
+  cursor: pointer;
+`;
 
 export {
   Container,
@@ -114,5 +139,11 @@ export {
   AICompany,
   Items,
   Item,
-  Paragraphs,Pages,Box
+  Paragraphs,
+  Pages,
+  Box,
+  Border,
+  Social,
+  SNS,
+  SNSImg,
 };

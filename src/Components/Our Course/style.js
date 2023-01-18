@@ -122,12 +122,15 @@ const ReadMore = styled.p`
   line-height: 24px;
   text-align: center;
   color: #111827;
+  cursor: pointer;
 `;
 
 const Right = styled.img`
   width: 10px;
   height: 12px;
   margin-left: 10px;
+  cursor: pointer;
+
 `;
 
 export {
