@@ -14,9 +14,9 @@ import Testimonials from "../Components/Testimonials";
 const Root = () => {
   return (
     <div>
-      <Navbar />
+      {/* <Navbar /> */}
       <Home />
-      <AboutCourse />
+      {/* <AboutCourse />
       <FindCourse />
       <AboutPrice />
       <AboutJoin />
@@ -24,7 +24,7 @@ const Root = () => {
       <Testimonials />
       <LatestPost/>
       <ContactUs/>
-      <Footer/>
+      <Footer/> */}
     </div>
   );
 };

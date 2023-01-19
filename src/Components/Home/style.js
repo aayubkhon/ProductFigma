@@ -7,12 +7,21 @@ const Container = styled.div`
   padding-left: 80px;
   display: flex;
   height: 730px;
+  @media (max-width: 600px) {
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  flex-direction:column;
+  height: 890px;
+
+  }
 `;
 
 const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   margin-top: 163px;
+  
 `;
 
 const Title = styled.p`
@@ -21,6 +30,10 @@ const Title = styled.p`
   font-size: 56px;
   color: #ffffff;
   line-height: 67px;
+  @media (max-width: 600px) {
+  width:80%;
+  font-size: 46px;
+  }
 `;
 
 const Text = styled.p`
@@ -64,12 +77,22 @@ const ItemText = styled.p`
 
 const Image = styled.div`
   margin: 48px 82px;
+  @media (max-width: 600px) {
+ display:flex;
+ align-items:center;
+ justify-content:center;
+  }
 `;
 
 const ImageImg = styled.img`
   width: 550px;
   height: 600px;
   margin-left: 30px;
+  @media screen and (max-width: 300px) {
+  width:460px;
+  height:300px;
+  margin-right:80px;
+  }
 `;
 
 const ItemImg = styled.img`
