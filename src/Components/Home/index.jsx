@@ -19,7 +19,7 @@ const Home = () => {
   return (
     <Container>
       <Wrapper>
-        <Title>Become an No-Code expert and find a job</Title>
+        <Title>Become an No-Code expert and find a job!</Title>
         <Text>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
           vel molestie magna curabitur tincidunt nunc sit amet.

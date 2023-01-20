@@ -16,8 +16,8 @@ const Root = () => {
     <div>
       {/* <Navbar /> */}
       <Home />
-      {/* <AboutCourse />
-      <FindCourse />
+      <AboutCourse />
+      {/* <FindCourse />
       <AboutPrice />
       <AboutJoin />
       <AboutTeachers />

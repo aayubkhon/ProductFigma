@@ -7,12 +7,14 @@ const Container = styled.div`
   padding-left: 80px;
   display: flex;
   height: 730px;
-  @media (max-width: 600px) {
+  @media screen and (max-width: 600px) {
   display: flex;
   align-items: center;
   justify-content:center;
   flex-direction:column;
-  height: 890px;
+  height: 700px;
+  padding-left:40px;
+  width:100%;
 
   }
 `;
@@ -21,7 +23,10 @@ const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   margin-top: 163px;
-  
+  @media screen and (max-width: 600px) {
+  margin-top:20px;
+
+  }
 `;
 
 const Title = styled.p`
@@ -30,9 +35,9 @@ const Title = styled.p`
   font-size: 56px;
   color: #ffffff;
   line-height: 67px;
-  @media (max-width: 600px) {
-  width:80%;
-  font-size: 46px;
+  @media screen and (max-width: 600px) {
+  font-size: 30px;
+  line-height: 47px;
   }
 `;
 
@@ -77,10 +82,8 @@ const ItemText = styled.p`
 
 const Image = styled.div`
   margin: 48px 82px;
-  @media (max-width: 600px) {
- display:flex;
- align-items:center;
- justify-content:center;
+  @media screen and (max-width: 600px) {
+    margin-left:5px;
   }
 `;
 
@@ -88,12 +91,12 @@ const ImageImg = styled.img`
   width: 550px;
   height: 600px;
   margin-left: 30px;
-  @media screen and (max-width: 300px) {
-  width:460px;
-  height:300px;
-  margin-right:80px;
+  @media screen and  (max-width: 600px) {
+  width:320px;
+  height:280px;
   }
 `;
+
 
 const ItemImg = styled.img`
   width: 30px;
