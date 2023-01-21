@@ -9,6 +9,7 @@ import {
   LogoImgTitle,
   LogoItem,
   Main,
+  Picture,
   SecondButton,
   Title,
   TitleText,
@@ -25,7 +26,7 @@ const AboutJoin = () => {
         <Wrapper>
           <Items>
             <JoinButton>Join Us</JoinButton>
-            <Title>Join more than 17,000+ students all over the world</Title>
+            <Title>Join more than 17,000+ students all over the world!</Title>
             <TitleText>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Suspendisse varius enim in eros elementum tristique. Duis cursus,
@@ -34,12 +35,12 @@ const AboutJoin = () => {
             <SecondButton>Get Started</SecondButton>
           </Items>
         </Wrapper>
-        <img src={Join} alt="" />
+        <Picture src={Join} alt="" />
       </Main>
       <LogoItem>
         <LogoImg>
           <Logo src={FirstLogo} alt="" />
-          <LogoImgTitle>Browse our courses</LogoImgTitle>
+          <LogoImgTitle>Browse our courses!</LogoImgTitle>
           <LogoImgText>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
             varius enim in eros elementum!
@@ -47,7 +48,7 @@ const AboutJoin = () => {
         </LogoImg>
         <LogoImg>
           <Logo src={SecondLogo} alt="" />
-          <LogoImgTitle>Purchase quickly and securely</LogoImgTitle>
+          <LogoImgTitle>Purchase quickly and securely!</LogoImgTitle>
           <LogoImgText>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
             varius enim in eros elementum!
@@ -55,7 +56,7 @@ const AboutJoin = () => {
         </LogoImg>
         <LogoImg>
           <Logo src={ThirtLogo} alt="" />
-          <LogoImgTitle>Start learning right away</LogoImgTitle>
+          <LogoImgTitle>Start learning right away!</LogoImgTitle>
           <LogoImgText>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
             varius enim in eros elementum!

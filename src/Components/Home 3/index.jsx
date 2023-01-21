@@ -18,7 +18,7 @@ const FindCourse = () => {
   return (
     <Container>
       <Wrapper>
-        <Title>Easily find the perfect course for you</Title>
+        <Title>Easily find the perfect course for you!</Title>
         <Text>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
           vel molestie magna curabitur tincidunt nunc sit amet.

@@ -11,6 +11,7 @@ import {
   Wrapper,
   Picture,
   Button,
+  Container,
 } from "./style";
 import logo from "../Assets/icons/icon1.svg";
 import logo2 from "../Assets/icons/logo1.svg";
@@ -19,10 +20,10 @@ import contact from "../Assets/icons/icon3.svg";
 import Children from "../Assets/img/children.png";
 const AboutTeachers = () => {
   return (
-    <div>
+    <Container>
       <Title>
         <TitleText>
-          Grow your knowledge from best teachers in the industry
+          Grow your knowledge from best teachers in the industry!
         </TitleText>
       </Title>
       <Wrapper>
@@ -65,7 +66,7 @@ const AboutTeachers = () => {
         </Main>
         <Button>Get Started</Button>
       </Wrapper>
-    </div>
+    </Container>
   );
 };
 

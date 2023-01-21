@@ -1,8 +1,17 @@
 import styled from "styled-components";
 
 const Container = styled.div`
-  width: 700px;
   height: 700px;
+  width:100%;
+  @media screen and (max-width:600px) {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    width:100%;
+    margin-top:30px;
+
+  }
 `;
 
 const Wrapper = styled.div`
@@ -10,6 +19,7 @@ const Wrapper = styled.div`
   @media screen and (max-width:600px) {
     display:flex;
     flex-direction:column;
+
   }
 `;
 
@@ -43,8 +53,8 @@ const ItemParagraph = styled.p`
   @media screen and (max-width:600px) {
     font-size: 30px;
     line-height: 47px;
-    margin:5px 25px;
-    width:40%;
+    margin:3px 25px;
+    width:70%;
   }
 `;
 
@@ -57,8 +67,8 @@ const ItemText = styled.p`
   color: #4b5563;
   margin-top: 20px;
   @media screen and (max-width:600px) {
-    margin:5px 20px;
-    width:50%;
+    margin:5px 24px;
+    width:80%;
   }
 `;
 

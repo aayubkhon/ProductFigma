@@ -2,18 +2,29 @@ import styled from "styled-components";
 
 const Container = styled.div`
   background: #fcd8ca;
-  border-radius: 24px;
+  width: 100%;
   height: 700px;
-  margin: 90px 80px;
+  margin-top: 80px;
+  @media screen and (max-width: 600px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 90%;
+    margin-left: 10px;
+  border-radius: 17px;
+
+  }
 `;
 
-const MinTitle = styled.div`
+const MainTitle = styled.div`
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
 `;
-const MinTitleButton = styled.button`
+const MainTitleButton = styled.button`
   font-family: "Poppins";
   background: #ffffff;
   border-radius: 4px;
@@ -26,6 +37,9 @@ const MinTitleButton = styled.button`
   border: none;
   width: 101px;
   height: 29px;
+  @media screen and (max-width: 600px) {
+    margin-top: 10px;
+  }
 `;
 
 const Title = styled.p`
@@ -41,6 +55,10 @@ const Wrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  @media screen and (max-width: 600px) {
+    display: flex;
+    flex-direction: column;
+  }
 `;
 
 const WrapperItem = styled.div`
@@ -51,11 +69,22 @@ const WrapperItem = styled.div`
   margin: 90px 20px;
   width: 380px;
   height: 328px;
+  @media screen and (max-width: 600px) {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    margin: 20px 20px;
+  }
 `;
 
 const Stars = styled.img`
   width: 500px;
   margin: 25px 20px;
+  @media screen and (max-width: 600px) {
+    width: 300px;
+    margin: 20px 20px;
+  }
 `;
 
 const WrapperText = styled.p`
@@ -66,11 +95,21 @@ const WrapperText = styled.p`
   color: #1f2937;
   width: 90%;
   margin: 25px 20px;
+  @media screen and (max-width: 600px) {
+    margin: 10px;
+    width: 70%;
+    font-size: 12px;
+    margin: 0px 20px;
+  }
 `;
 
 const Items = styled.div`
   display: flex;
   margin: 20px 20px;
+  @media screen and (max-width: 600px) {
+    display: flex;
+    margin-left: 20px;
+  }
 `;
 
 const ItemsAbout = styled.div`
@@ -99,8 +138,8 @@ const ImgJob = styled.p`
 
 export {
   Container,
-  MinTitle,
-  MinTitleButton,
+  MainTitle,
+  MainTitleButton,
   Title,
   Wrapper,
   WrapperItem,

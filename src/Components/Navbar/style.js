@@ -1,15 +1,16 @@
 import styled from "styled-components";
 
-
-
-
 const Container = styled.div`
   background: #00353b;
   height: 52px;
   display: flex;
   align-items: center;
   color: white;
-  width:100%;
+  width: 100%;
+  @media screen and (max-width:600px) {
+    
+
+  }
 `;
 
 const Wrapper = styled.div`
@@ -78,4 +79,8 @@ const Button = styled.button`
   cursor: pointer;
 `;
 
-export { Container, Wrapper, Pages, Icons, Carts, Button, CartsImg };
+const Mobile = styled.div`
+color:white;
+`
+
+export { Container, Wrapper, Pages, Icons, Carts, Button, CartsImg,Mobile };

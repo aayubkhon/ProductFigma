@@ -5,8 +5,8 @@ import {
   ImgName,
   Items,
   ItemsAbout,
-  MinTitle,
-  MinTitleButton,
+  MainTitle,
+  MainTitleButton,
   Stars,
   Title,
   Wrapper,
@@ -20,10 +20,10 @@ import women from "../Assets/img/women.png";
 const Testimonials = () => {
   return (
     <Container>
-      <MinTitle>
-        <MinTitleButton>Testimonials</MinTitleButton>
+      <MainTitle>
+        <MainTitleButton>Testimonials</MainTitleButton>
         <Title>What our students say</Title>
-      </MinTitle>
+      </MainTitle>
       <Wrapper>
         <WrapperItem>
           <Stars src={stars} alt="" />

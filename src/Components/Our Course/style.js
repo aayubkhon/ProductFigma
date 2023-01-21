@@ -3,6 +3,17 @@ import styled from "styled-components";
 const Container = styled.div`
   background: #00353b;
   height: 950px;
+  display: flex;
+  flex-direction: column;
+  @media screen and (max-width: 600px) {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    border-radius: 17px;
+    margin: 50px 10px;
+  height: 90%;
+
+  }
 `;
 
 const BlogButton = styled.button`
@@ -17,19 +28,28 @@ const BlogButton = styled.button`
   margin: 50px 80px;
   border: none;
   cursor: pointer;
+  @media screen and (max-width: 600px) {
+    margin: 30px 20px;
+  }
 `;
 
 const MainTitle = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0px 80px;
+  margin-top: 80px;
+  @media screen and (max-width: 600px) {
+    margin: 10px 20px;
+  }
 `;
 const Title = styled.p`
   font-family: "Poppins";
   font-weight: 400;
   font-size: 48px;
   color: #ffffff;
+  @media screen and (max-width: 600px) {
+    font-size: 30px;
+  }
 `;
 
 const ViewButton = styled.button`
@@ -50,18 +70,35 @@ const ViewButton = styled.button`
 const Wrapper = styled.div`
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 80px;
+  justify-content: space-evenly;
+  margin-top: 80px;
+  @media screen and (max-width: 600px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+  }
 `;
 
 const Photo = styled.img`
   width: 405px;
   height: 300px;
+  @media screen and (max-width: 600px) {
+    width: 340px;
+    height: 300px;
+  }
 `;
 
 const WrapperItem = styled.div`
   display: flex;
   flex-direction: column;
+  @media screen and (max-width: 600px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 `;
 const Picture = styled.div`
   display: flex;
@@ -130,7 +167,6 @@ const Right = styled.img`
   height: 12px;
   margin-left: 10px;
   cursor: pointer;
-
 `;
 
 export {

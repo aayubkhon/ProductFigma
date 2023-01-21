@@ -5,7 +5,7 @@ const ContactUs = () => {
   return (
     <Container>
       <Wrapper>
-        <Title>Start learning today</Title>
+        <Title>Start learning today!</Title>
         <Text>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
           varius enim in eros elementum tristique.

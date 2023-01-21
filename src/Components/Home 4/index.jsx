@@ -20,7 +20,7 @@ const AboutPrice = () => {
   return (
     <Container>
       <Main>
-        <Title>The most popular courses</Title>
+        <Title>The most popular courses!</Title>
       </Main>
       <Wrapper>
         <Course>
@@ -37,7 +37,7 @@ const AboutPrice = () => {
         <Course>
           <CoursePrice>
             <CoursePriceButton>Masster</CoursePriceButton>
-            <CoursePriceText>Webflow  Masterclass</CoursePriceText>
+            <CoursePriceText>Webflow Masster</CoursePriceText>
             <CoursePrices>$ 35.00 USD</CoursePrices>
           </CoursePrice>
           <CoursePriceImg>

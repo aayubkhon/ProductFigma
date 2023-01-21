@@ -1,11 +1,22 @@
 import styled from "styled-components";
 
-const Container = styled.div``;
+const Container = styled.div`
+  width: 100%;
+  @media screen and (max-width: 600px) {
+    margin-top: 20px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+`;
 
 const Main = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  @media screen and (max-width: 600px) {
+    display: flex;
+    margin-top: 40px;
+  }
 `;
 
 const Title = styled.h1`
@@ -14,12 +25,23 @@ const Title = styled.h1`
   font-size: 48px;
   text-align: center;
   color: #1f2937;
+  @media screen and (max-width: 600px) {
+    font-size: 30px;
+    text-align: start;
+    margin-left: 20px;
+  }
 `;
 
 const Wrapper = styled.div`
   display: flex;
-  padding: 80px;
-  justify-content: space-between;
+  margin-top: 80px;
+  justify-content: space-evenly;
+  @media screen and (max-width: 600px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 30px 20px;
+  }
 `;
 
 const Course = styled.div`
@@ -32,11 +54,22 @@ const Course = styled.div`
   padding: 36px 36px;
   display: flex;
   flex-direction: column;
+  @media screen and (max-width: 600px) {
+    width: 320px;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+  }
 `;
 
 const CoursePrice = styled.div`
   display: flex;
   flex-direction: column;
+  @media screen and (max-width: 600px) {
+    display: flex;
+    flex-direction: column;
+  }
 `;
 
 const CoursePriceButton = styled.button`
@@ -46,10 +79,13 @@ const CoursePriceButton = styled.button`
   font-weight: 400;
   font-size: 14px;
   color: #1f2937;
-  width: 77px;
+  width: 90px;
   height: 29px;
   border: none;
   cursor: pointer;
+  @media screen and (max-width: 600px) {
+    width: 90px;
+  }
 `;
 
 const CoursePriceText = styled.p`
@@ -58,6 +94,9 @@ const CoursePriceText = styled.p`
   font-size: 24px;
   color: #ffffff;
   margin-top: 10px;
+  @media screen and (max-width: 600px) {
+    font-size: 20px;
+  }
 `;
 
 const CoursePrices = styled.p`
@@ -71,6 +110,10 @@ const CoursePrices = styled.p`
 const CoursePriceImg = styled.div`
   display: flex;
   position: relative;
+  @media screen and (max-width: 600px) {
+    display: flex;
+    position: relative;
+  }
 `;
 
 const ButttonBuy = styled.button`
@@ -87,6 +130,9 @@ const ButttonBuy = styled.button`
   height: 42px;
   margin-top: 280px;
   cursor: pointer;
+  @media screen and (max-width: 600px) {
+    margin-top: 160px;
+  }
 `;
 
 const Picture = styled.img`
@@ -95,6 +141,13 @@ const Picture = styled.img`
   position: absolute;
   top: 82px;
   left: 47.8%;
+  @media screen and (max-width: 600px) {
+    position: absolute;
+    width: 110px;
+    height: 140px;
+    top: 87.4px;
+    left: 70.2%;
+  }
 `;
 
 export {

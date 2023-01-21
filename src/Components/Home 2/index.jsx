@@ -20,7 +20,7 @@ const AboutCourse = () => {
         <ImageImges src={picture} alt="" />
         <Item>
           <ItemParagraph>
-            Premium courses from the industry leaders
+            Premium courses from the industry leaders!
           </ItemParagraph>
           <ItemText>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse

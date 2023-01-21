@@ -9,10 +9,8 @@ const Container = styled.div`
   height: 730px;
   @media screen and (max-width: 600px) {
   display: flex;
-  align-items: center;
-  justify-content:center;
   flex-direction:column;
-  height: 700px;
+  height: 730px;
   padding-left:40px;
   width:100%;
 
@@ -24,6 +22,8 @@ const Wrapper = styled.div`
   flex-direction: column;
   margin-top: 163px;
   @media screen and (max-width: 600px) {
+    display: flex;
+  flex-direction: column;
   margin-top:20px;
 
   }
@@ -36,7 +36,7 @@ const Title = styled.p`
   color: #ffffff;
   line-height: 67px;
   @media screen and (max-width: 600px) {
-  font-size: 30px;
+  font-size: 35px;
   line-height: 47px;
   }
 `;
@@ -83,6 +83,10 @@ const ItemText = styled.p`
 const Image = styled.div`
   margin: 48px 82px;
   @media screen and (max-width: 600px) {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
     margin-left:5px;
   }
 `;

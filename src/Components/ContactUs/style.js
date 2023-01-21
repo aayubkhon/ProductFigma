@@ -5,6 +5,13 @@ const Container = styled.div`
   flex-direction: column;
   background: #00353b;
   height: 433px;
+  @media screen and (max-width: 600px) {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 10px;
+    height: 353px;
+
+  }
 `;
 
 const Wrapper = styled.div`
@@ -22,6 +29,13 @@ const Title = styled.p`
   text-align: center;
   color: #ffffff;
   margin-top: 100px;
+  @media screen and (max-width: 600px) {
+    margin-top: 30px;
+    font-size: 30px;
+
+
+
+  }
 `;
 
 const Text = styled.p`
@@ -33,6 +47,11 @@ const Text = styled.p`
   color: #ffffff;
   margin-top: 29px;
   width: 50%;
+  @media screen and (max-width: 600px) {
+    width: 80%;
+
+
+  }
 `;
 
 const Item = styled.div`
@@ -40,6 +59,12 @@ const Item = styled.div`
   align-items: center;
   justify-content: space-evenly;
   margin-top: 40px;
+  @media screen and (max-width: 600px) {
+    margin-top: 30px;
+
+
+
+  }
 `;
 
 const Button = styled.button`
