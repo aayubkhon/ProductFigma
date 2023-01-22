@@ -1,5 +1,5 @@
 import styled from "styled-components";
-
+import { NavLink } from "react-router-dom";
 const Container = styled.div`
   background: #00353b;
   height: 52px;
@@ -7,9 +7,7 @@ const Container = styled.div`
   align-items: center;
   color: white;
   width: 100%;
-  @media screen and (max-width:600px) {
-    
-
+  @media screen and (max-width: 600px) {
   }
 `;
 
@@ -48,14 +46,6 @@ const Carts = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  p {
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    color: #ffffff;
-  }
 `;
 
 const CartsImg = styled.img`
@@ -80,7 +70,28 @@ const Button = styled.button`
 `;
 
 const Mobile = styled.div`
-color:white;
-`
+  color: white;
+`;
 
-export { Container, Wrapper, Pages, Icons, Carts, Button, CartsImg,Mobile };
+const Link = styled(NavLink)`
+  font-family: "Poppins";
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-left:10px;
+`;
+
+export {
+  Container,
+  Link,
+  Wrapper,
+  Pages,
+  Icons,
+  Carts,
+  Button,
+  CartsImg,
+  Mobile,
+};

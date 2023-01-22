@@ -18,8 +18,10 @@ import logo2 from "../Assets/icons/logo1.svg";
 import smile from "../Assets/icons/icon2.svg";
 import contact from "../Assets/icons/icon3.svg";
 import Children from "../Assets/img/children.png";
+import Testimonials from "../Testimonials"
 const AboutTeachers = () => {
   return (
+    <>
     <Container>
       <Title>
         <TitleText>
@@ -67,6 +69,8 @@ const AboutTeachers = () => {
         <Button>Get Started</Button>
       </Wrapper>
     </Container>
+    <Testimonials/>
+    </>
   );
 };
 

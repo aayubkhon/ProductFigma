@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const Container = styled.div`
   background: #00353b;
-  height: 950px;
+  height: 1150px;
   display: flex;
   flex-direction: column;
   @media screen and (max-width: 600px) {
@@ -37,7 +37,7 @@ const MainTitle = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 80px;
+  margin: 80px 50px;
   @media screen and (max-width: 600px) {
     margin: 10px 20px;
   }

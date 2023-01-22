@@ -16,8 +16,10 @@ import {
 import Beginner from "../Assets/img/first.png";
 import MassterClass from "../Assets/img/second.png";
 import Advanced from "../Assets/img/thirt.png";
+import AboutJoin from "../Home 5"
 const AboutPrice = () => {
   return (
+    <>
     <Container>
       <Main>
         <Title>The most popular courses!</Title>
@@ -58,6 +60,8 @@ const AboutPrice = () => {
         </Course>
       </Wrapper>
     </Container>
+    <AboutJoin/>
+    </>
   );
 };
 

@@ -1,8 +1,10 @@
 import React from "react";
+import LatestPost from "../Our Course"
+import Footer from "../Footer"
 import { Button, Container, Item, ItemButton, Text, Title, Wrapper } from "./style";
-
 const ContactUs = () => {
   return (
+    <>
     <Container>
       <Wrapper>
         <Title>Start learning today!</Title>
@@ -16,6 +18,9 @@ const ContactUs = () => {
         </Item>
       </Wrapper>
     </Container>
+    <LatestPost/>
+    <Footer/>
+    </>
   );
 };
 

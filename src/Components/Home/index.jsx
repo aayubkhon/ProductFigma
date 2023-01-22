@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import {
   Items,
   Container,
@@ -15,8 +16,12 @@ import {
 } from "./style";
 import picture from "../Assets/img/main.png";
 import play from "../Assets/icons/play.svg";
+import AboutCourse from "../Home 2"
+import FindCourse from "../Home 3"
 const Home = () => {
+  const navigate = useNavigate()
   return (
+    <>
     <Container>
       <Wrapper>
         <Title>Become an No-Code expert and find a job!</Title>
@@ -26,7 +31,7 @@ const Home = () => {
         </Text>
         <Items>
           <ItemsBox>
-            <Button>Explore courses</Button>
+            <Button onClick={()=>navigate('/about')}>Explore courses</Button>
             <Item>
               <ItemText>Watch Video</ItemText>
               <ItemImg src={play} alt="" />
@@ -38,6 +43,9 @@ const Home = () => {
         <ImageImg src={picture} alt="" />
       </Image>
     </Container>
+    <AboutCourse/>
+    <FindCourse/>
+    </>
   );
 };
 
