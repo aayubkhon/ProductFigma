@@ -16,6 +16,9 @@ const Wrapper = styled.div`
   display: flex;
   margin: auto;
   align-items: center;
+  @media screen and (max-width: 600px) {
+   
+  }
 `;
 
 const Pages = styled.div`
@@ -24,13 +27,12 @@ const Pages = styled.div`
   justify-content: center;
   margin-left: 60px;
   cursor: pointer;
-  p {
-    font-family: "Poppins";
-    padding-left: 29px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
+  @media screen and (max-width: 600px) {
+   display:none;
   }
+ 
+
+  
 `;
 
 const Icons = styled.div`
@@ -39,6 +41,9 @@ const Icons = styled.div`
   align-items: center;
   margin-right: 19px;
   cursor: pointer;
+  @media screen and (max-width: 600px) {
+   display:none;
+  }
 `;
 
 const Carts = styled.div`
@@ -70,7 +75,15 @@ const Button = styled.button`
 `;
 
 const Mobile = styled.div`
-  color: white;
+display:none;
+  @media screen and (max-width: 600px) {
+    display:block;
+    position:absolute;
+    top:10px; 
+    right:20px;
+    color:white;
+  }
+
 `;
 
 const Link = styled(NavLink)`
@@ -82,6 +95,7 @@ const Link = styled(NavLink)`
   line-height: 24px;
   color: #ffffff;
   margin-left:10px;
+  
 `;
 
 export {

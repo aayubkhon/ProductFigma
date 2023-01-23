@@ -5,3 +5,24 @@
   margin: 0;
   
 }
+
+
+@media screen and (max-width: 600px) {
+  .navbar{
+    position:relative;
+    transition:0.5s ; 
+    height: ease-in-out;
+  }
+  .navbar .expanded{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:50vh;
+    width: 200px;
+    background: #4297a0;
+    top: 30px;
+    margin-left: 100px;
+   }
+}
